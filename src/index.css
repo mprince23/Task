@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+
+
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.btn-toggle {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-toggle:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+/* styles.css */
+body {
+  transition: background-color 0.3s ease;
+}
+
+.app.light {
+  background-color: white;
+  color: black;
+}
+
+.app.dark {
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+.content.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.content.list {
+  display: block;
+}
+
+.content p {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+}
